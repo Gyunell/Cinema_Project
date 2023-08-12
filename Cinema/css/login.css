@@ -1,0 +1,42 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.home {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background: url(https://i.pinimg.com/564x/ce/d3/9b/ced39b67c34c8b34dc0a7a2c2d205b16.jpg);
+    margin-left: 100px;
+    float: left;
+}
+.home {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background: url(https://i.pinimg.com/564x/ce/d3/9b/ced39b67c34c8b34dc0a7a2c2d205b16.jpg);
+    background-size: cover;
+    margin-left: 120px;
+}
+div h3 {
+    margin-top: 210px;
+    margin-left: 16px;
+    color: rgb(221, 199, 199);
+}
+.div_form{
+    margin-top: 55px;
+}
+.button {
+    margin-top: 25px;
+}
+.input{
+    width: 450px;
+    padding: 5px;
+}
+.box{
+    border: none;
+}
+form label{
+    color: rgb(221, 199, 199);
+}

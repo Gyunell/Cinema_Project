@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap"
+        rel="stylesheet">
+    <title>Login</title>
+</head>
+  
+<body class="body_backgorund">
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>Login</h3>
+            <div class="div_form"> 
+                <fieldset class="box">
+                    <form action="">
+                        <label for="">Name</label>
+                        <br>
+                        <input class="input" type="text" id="username"  placeholder="Write your full name"> 
+                        <br>
+                        <label for="">Email</label>
+                        <br>
+                        <input class="input" type="email" placeholder="Write your email">
+                        <br>
+                        <label for="">Password</label>
+                        <br>
+                        <input class="input" type="password" id="passwrd" placeholder="Enter Password">
+                        <br>
+                        <label for="">Confirm Password</label>
+                        <br>
+                        <input class="input" type="password" id="passwrd2" placeholder="Re-Enter Password">
+                        <button onclick="log_into()" class="button" id="btn">Submit</button>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>Sign up</h3>
+            <div class="div_form">
+                <fieldset class="box">
+                    <form action="">
+                        <label for="">Name</label>
+                        <br>
+                        <input class="input" type="text" placeholder="Write your full name">
+                        <br>
+                        <label for="">Email</label>
+                        <br>
+                        <input class="input" type="email" placeholder="Write your email">
+                        <br>
+                        <label for="">Password</label>
+                        <br>
+                        <input class="input" type="password" placeholder="Enter a Password">
+                        <br>
+                        <label for="">Mobile</label>
+                        <br>
+                        <input class="input" type="tel" placeholder="Type your mobile number">
+                        <button onclick="sign_up()" class="button" >Submit</button>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/main2.js"></script>
+</body>
+
+</html>
